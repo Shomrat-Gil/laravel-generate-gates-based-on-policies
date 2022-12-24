@@ -25,7 +25,7 @@
 		 $some = $user->getRelation('some_relationship')->first(); 
 	    return $some
                 ? Response::allow()
-                : Response::deny('You do not own this post.');
+                : Response::deny('Some no access message.');
     }
 
 Calling the Policy:
