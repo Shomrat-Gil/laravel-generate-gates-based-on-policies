@@ -32,7 +32,7 @@
 Calling the Policy:
 
     $this->authorize('edit', [\App\Models\SomeModel::class, 2]);
-    authorizeForUser($user, [\App\Models\SomeModel::class, 2]);
+    $this->authorizeForUser($user, [\App\Models\SomeModel::class, 2]);
 
 Calling the Policy based on the generated gate: 
 
