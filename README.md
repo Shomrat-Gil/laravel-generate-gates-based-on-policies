@@ -16,7 +16,6 @@
     /**
     * Determine if the given post can be updated by the user.
     * @param  \App\Models\User  $user
-    * @param  \App\Models\Post  $post
     * @return \Illuminate\Auth\Access\Response
     */
     public function edit(User $user, int $id){ 
